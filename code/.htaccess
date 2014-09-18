@@ -1,0 +1,13 @@
+# htaccess file
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{REQUEST_URI}  !^/css
+RewriteCond %{REQUEST_URI}  !^/js
+RewriteCond %{REQUEST_URI}  !^/images
+RewriteCond %{REQUEST_URI}  !^/index.php
+RewriteCond %{REQUEST_URI}  !^/TEST.php
+RewriteCond %{REQUEST_URI}  !^/install.php
+RewriteCond %{REQUEST_URI}  !^/UNZIP.php
+RewriteCond %{REQUEST_URI}  !^/QRCODE
+RewriteCond %{REQUEST_URI}  !^/external_images/
+RewriteRule .* /index.php

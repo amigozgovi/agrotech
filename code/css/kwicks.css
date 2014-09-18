@@ -1,0 +1,84 @@
+/* This css file serves as a template for styling your kwicks.  Feel free to modify, but please make note of the comments - some of them are important. */
+#kwicks1 {
+  margin: 0 auto;
+  width: 960px;
+  height: 344px;
+}
+.kwicks {
+	/* recommended styles for kwicks ul container */
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+  background:#666666;
+
+}
+.kwicks li{
+	/* these are required, but the values are up to you (must be pixel) */
+  width: 192px;
+  height: 344px;
+
+	/*do not change these */
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	padding: 0;  /* if you need padding, do so with an inner div (or implement your own box-model hack) */
+  margin: 0;
+}
+.kwicks li img {
+  overflow: hidden;
+}
+.kwicks.horizontal li {
+	/* This is optional and will be disregarded by the script. However, it should be provided for non-JS enabled browsers. */
+	margin-right: 0; /*Set to same as spacing option. */	
+	float: left;
+ 
+}
+.kwicks.vertical  li{
+	/* This is optional and will be disregarded by the script. However, it should be provided for non-JS enabled browsers. */
+	margin-bottom: 5px; /*Set to same as spacing option. */	
+}
+.kwicks li .caption {
+  padding: 15px 20px 10px 20px;
+  width: 260px;
+  position: absolute;
+  left: 0;
+  top: 250px;
+  background: url(../images/transparent.png) repeat;
+  -webkit-border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;    
+}
+.kwicks li .heading-text {
+  padding: 15px 20px;
+  width: 260px;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  background: url(../images/transparent.png) repeat;
+  display: none;
+}
+.kwicks li .heading-text h3,
+.kwicks li .caption h4 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.kwicks li .heading-text p {
+  color: #dadada;
+  margin-bottom: 0;
+  line-height: 16px;
+  display: none;  
+}
+    
+.kwicks li .shadow{
+  position:absolute;
+  z-index:999;
+  top:0;
+  left: 0;
+  height:345px !important;
+  width:54px;	
+  background:url(../images/kwicks-shadow.png) left repeat-y;
+}

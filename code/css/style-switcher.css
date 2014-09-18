@@ -1,0 +1,36 @@
+#style-switcher {  
+  position: absolute;  
+  width: 55px;  
+  top: 5px;  
+  left: 5px;  
+  background: #f3f3f3;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow:0 0 6px #000000;
+  -webkit-box-shadow:0 0 6px #000000;      
+} 	
+.color-box,
+.pattern-box,
+.bg-box {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-right:2px;
+	margin-left:2px;
+  margin-bottom: 5px;
+  border: 1px solid #cacaca;
+}
+#colorpicker {
+	width: 36px;
+	height: 36px;
+	background: url(../images/colorpicker/select2.png);
+}
+#colorpicker div {
+	width: 28px;
+	height: 28px;
+	background: url(../images/colorpicker/select2.png) center;
+}

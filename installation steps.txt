@@ -1,0 +1,14 @@
+ STEPS (Microsoft Windows)
+--------
+
+1)Install WAMPServer.exe in Help files  
+2)Run wampserver
+3)Left click the wampserver icon in Taskbar & open WWW directory(C:\wamp\www) 
+4)Copy files in code to WWW directory
+5)left click the wamp server icon in taskbar & open phpmyadmin
+6)phpmyadmin page will open in default browser of the system
+7)create a datbase 'agrotech'and also 19 tables as in the file3.doc(Data base design section) in report folder
+8)Open any web browser(Google chrome,Internet Explorer,Mozila Firefox)&type http://localhost/
+9)agrotech website will appear in browser
+
+
